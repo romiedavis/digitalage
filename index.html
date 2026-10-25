@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching and Learning in the Digital Age: Core Recommendations</title>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; margin: 0; padding: 0; background-color: #f0f4f8; color: #1e293b; background-image: radial-gradient(#cbd5e1 1px, transparent 1px); background-size: 24px 24px; }
+        header { background: #1e3a8a; padding: 20px; text-align: center; color: white; position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 20px rgba(30, 58, 138, 0.15); border-bottom: 3px solid #38bdf8; }
+        h1 { margin: 0; font-size: 1.8rem; font-weight: 800; letter-spacing: -0.5px; text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        nav { margin-top: 15px; }
+        nav a { color: #cbd5e1; margin: 0 12px; text-decoration: none; font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.5px; padding: 6px 12px; border-radius: 20px; transition: all 0.2s ease; }
+        nav a:hover { color: white; background: rgba(255,255,255,0.1); }
+        
+        /* High-Impact Visual Hero Banner with Live Image background */
+        .hero { 
+            background: linear-gradient(rgba(30, 58, 138, 0.85), rgba(30, 58, 138, 0.85)), url('https://unsplash.com') no-repeat center center;
+            background-size: cover;
+            color: white; 
+            padding: 60px 20px; 
+            text-align: center; 
+            margin-bottom: 40px; 
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.2);
+            border-bottom: 5px solid #38bdf8;
+        }
+        .hero h2 { margin: 0 0 12px 0; font-size: 2rem; font-weight: 800; }
+        .hero p { margin: 0 auto; color: #93c5fd; font-size: 1.15rem; max-width: 750px; line-height: 1.6; font-weight: 500; }
+        
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px 60px 20px; }
+        section { background: white; margin-bottom: 45px; padding: 35px; border-radius: 16px; box-shadow: 0 10px 25px rgba(0,0,0,0.02); border-top: 6px solid #2563eb; position: relative; }
+        
+        /* Graphics added as background section watermark designs */
+        section::after { content: ''; position: absolute; top: 0; right: 0; width: 120px; height: 120px; background-size: contain; background-repeat: no-repeat; opacity: 0.04; pointer-events: none; padding: 20px; }
+        #articles::after { background-image: url('https://icons8.com'); }
+        #videos::after { background-image: url('https://icons8.com'); }
+        #podcasts::after { background-image: url('https://icons8.com'); }
+        #influencers::after { background-image: url('https://icons8.com'); }
+        
+        h2.section-title { color: #1e3a8a; margin-top: 0; padding-bottom: 12px; border-bottom: 2px solid #f1f5f9; font-size: 1.6rem; font-weight: 800; letter-spacing: 0.5px; display: flex; align-items: center; gap: 10px; }
+        .resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 25px; }
+        .resource-card { background: #f8fafc; border: 1px solid #e2e8f0; padding: 24px; border-radius: 12px; display: flex; flex-direction: column; justify-content: space-between; position: relative; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 2px 4px rgba(0,0,0,0.01); }
+        .resource-card:hover { transform: translateY(-4px); box-shadow: 0 12px 20px rgba(0,0,0,0.05); border-color: #cbd5e1; }
+        .resource-card h3 { margin: 0 0 10px 0; color: #1e40af; font-size: 1.25rem; font-weight: 700; line-height: 1.4; }
+        .meta-info { font-size: 0.75rem; color: #64748b; margin-bottom: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; background: #e2e8f0; padding: 4px 8px; border-radius: 4px; display: inline-block; }
+        p.description { line-height: 1.6; font-size: 0.95rem; color: #334155; margin: 0 0 20px 0; flex-grow: 1; }
+        
+        /* Graphic action link buttons */
+        .link-btn { display: inline-block; background: #1e293b; color: white; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-size: 0.85rem; font-weight: 700; text-align: center; transition: all 0.2s ease; border: 2px solid transparent; }
+        .resource-card:hover .link-btn { background: #2563eb; box-shadow: 0 4px 12px rgba(37,99,235,0.2); }
+        .link-btn:hover { background: #1d4ed8 !important; }
+        footer { text-align: center; padding: 35px; color: #64748b; font-size: 0.9rem; font-weight: 500; border-top: 1px solid #e2e8f0; margin-top: 60px; background: white; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Teaching and Learning in the Digital Age</h1>
+        <nav>
+            <a href="#articles">Articles</a>
+            <a href="#videos">Videos</a>
+            <a href="#podcasts">Podcasts</a>
+            <a href="#influencers">Influencers</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Curated Resource Dashboard</h2>
+        <p>A high-quality compilation of foundational research, educational multimedia, and leading digital voices constructed to empower modern classroom pedagogy.</p>
+    </div>
+
+    <div class="container">
+
+        <!-- ARTICLES SECTION -->
+        <section id="articles">
+            <h2 class="section-title"><span>📚</span> Articles</h2>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <div>
+                        <h3>Technology integration and teachers’ professional knowledge with reference to ISTE standards: A causal study</h3>
+                        <div class="meta-info">Aslam, R., Khan, N., & Ahmed, U. (2020)</div>
+                        <p class="description">This structural research paper analyzes how deploying core technology integration standards directly enhances professional educator models. It identifies foundational frameworks required to scale classrooms into digital environments.</p>
+                    </div>
+                    <a href="https://doi.org/10.22555/joeed.v7i2.31" class="link-btn" target="_blank">Access Full Article</a>
+                </div>
+
+                <div class="resource-card">
+                    <div>
+                        <h3>Developing 21st-century teaching skills: A case study through project-based curriculum</h3>
+                        <div class="meta-info">Martinez, C. (2022)</div>
+                        <p class="description">An evaluative project case study highlighting modern training curricula that naturally build digital teaching competencies. It offers practical insights regarding curriculum formatting to drive technical student outcomes.</p>
+                    </div>
+                    <a href="https://doi.org/10.1080/2331186X.2021.2024936" class="link-btn" target="_blank">Access Case Study</a>
+                </div>
+
+                <div class="resource-card">
+                    <div>
+                        <h3>Promising emerging technologies for teaching and learning: Recent developments</h3>
+                        <div class="meta-info">Almufarreh, A., & Arshad, M. (2023)</div>
+                        <p class="description">This review uncovers high-impact technical frameworks emerging across modern educational spaces. It actively breaks down integration benchmarks, processing speeds, and sustainable infrastructure roadmaps.</p>
+                    </div>
+                    <a href="https://doi.org/10.3390/su15086917" class="link-btn" target="_blank">Access Technical Review</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- VIDEOS SECTION -->
+        <section id="videos">
+            <h2 class="section-title"><span>🎥</span> Videos</h2>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <div>
+                        <h3>New EdTech Classroom System</h3>
+                        <div class="meta-info">YouTube | Creator: Sam Kary</div>
+                        <p class="description">A top educational channel providing deep tutorials on managing cross-platform classrooms and digital layouts. It provides teachers with quick workflows to deploy interactive applications without coding fatigue.</p>
+                    </div>
+                    <a href="https://youtube.com" class="link-btn" target="_blank">Watch Video Stream</a>
+                </div>
+
+                <div class="resource-card">
+                    <div>
+                        <h3>Skills Needed in a Digital Age Lecture</h3>
+                        <div class="meta-info">Open Source Media | Creator: Tony Bates</div>
+                        <p class="description">An essential video presentation detailing critical competencies required to navigate modern high-tech professional workspaces. It outlines structural layout capabilities and cloud literacy requirements.</p>
+                    </div>
+                    <a href="https://youtube.com" class="link-btn" target="_blank">Watch Core Presentation</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PODCASTS SECTION -->
+        <section id="podcasts">
+            <h2 class="section-title"><span>🎙️</span> Podcasts</h2>
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <div>
+                        <h3>The Shake Up Learning Show</h3>
+                        <div class="meta-info">Audio Series | Host: Kasey Bell</div>
